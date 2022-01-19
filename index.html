@@ -8,18 +8,19 @@
     <title>Countdown Timer</title>
 </head>
 <body class="bg-dark text-light">
-    <div class="bg-gradient" id="header">
-        <h1>Countdown Timer</h1>
+    <div class="container-lg bg-gradient" id="header">
+        <h1 class="">Countdown Timer</h1>
         <h2>Set a countdown timer for an upcoming important event</h2>
     </div>
-    <div>
+    <div class="container-lg">
         Please, select the event's deadline:
         <input class="form-control-sm" type="datetime-local" id="datetimeinfo">
-        <button class="btn-sm btn-primary">Set</button>
+        <button class="btn-sm btn-primary" onclick="setTimer()">Set</button>
     </div>
-    <div>
-        Display the countdown timer here.
+    <div class="container" id="timer">
+        
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
 </body>
 </html>
